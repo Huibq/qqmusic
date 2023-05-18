@@ -3,6 +3,8 @@ import os
 
 qq = os.environ['qq']
 
+print(qq)
+
 url = f'http://api.qdikun.com/api/qqmusic/?qq={qq}'
 
 response = requests.get(url)
