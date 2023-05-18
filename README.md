@@ -7,3 +7,4 @@
 Settings——Secrets and variables——Actions——New repository secret
 
 添加自己的QQ号
+# By:[Huibq](https://bbs.binmt.cc/?123688)
