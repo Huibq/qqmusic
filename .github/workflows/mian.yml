@@ -31,11 +31,8 @@ jobs:
           ${{ runner.os }}-pip-
     - name: 设置时区
       run: sudo timedatectl set-timezone 'Asia/Shanghai'
-    - name: 安装依赖
-      run: |
-        pip install -r ./tingshu/requirements.txt
     - name: 执行任务
       env:
         qq: ${{secret.qq}}
       run: |
-        python ./tingshu/tingshu.py
+        python ./qqmusic/qqmusic.py
